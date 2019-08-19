@@ -3,6 +3,12 @@
     "description": "QR Code package for Google2FA",
     "keywords": ["authentication", "two factor authentication", "google2fa", "2fa", "QRCode", "qr code"],
     "license": "MIT",
+	 "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/SampleJunction/google2fa-qrcode"
+        }
+    ],
     "authors": [
         {
             "name": "Pankaj Jha",
@@ -12,7 +18,7 @@
     ],
     "require": {
         "php": ">=5.4",
-        "samplejunction/google2fa": ">=4.0",
+        "samplejunction/google2fa": "dev-master",
         "bacon/bacon-qr-code": "~1.0|~2.0"
     },
     "require-dev": {
